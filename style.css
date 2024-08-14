@@ -22,4 +22,18 @@ img {
     display: flex;
     align-items: center;
     gap: 10px;
+    white-space: nowrap;
+}
+
+@media (max-width: 950px) {
+    .message {
+        font-size: 1.5rem;
+        gap: 2px;
+        flex-direction: column;
+        white-space: normal;
+    }
+
+    img {
+        margin-bottom: -100px;
+    }
 }
